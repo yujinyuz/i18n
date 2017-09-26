@@ -1,0 +1,29 @@
+1506438821563	geckodriver	INFO	geckodriver 0.19.0
+1506438821567	geckodriver	INFO	Listening on 127.0.0.1:53643
+1506438822751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eFDvx6NLTWaL"
+1506438824343	Marionette	INFO	Enabled via --marionette
+1506438828401	Marionette	INFO	Listening on port 37581
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506438828826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506438828880	Marionette	DEBUG	loaded listener.js
+1506438828944	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506438828958	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506438828983	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506438828983	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506438829099	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000."
+1506438829108	Marionette	INFO	New connections will no longer be accepted
+1506438855543	geckodriver	INFO	geckodriver 0.19.0
+1506438855547	geckodriver	INFO	Listening on 127.0.0.1:36811
+1506438856701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IifLKzPTJfqN"
+1506438857818	Marionette	INFO	Enabled via --marionette
+1506438861105	Marionette	INFO	Listening on port 43863
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506438861124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506438861172	Marionette	DEBUG	loaded listener.js
+1506438861210	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506438861235	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506438861236	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506438861243	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1506438861287	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1506438861328	Marionette	INFO	New connections will no longer be accepted
+[Child 5711] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-9jef4m/firefox-55.0.2+linuxmint1+sonya/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

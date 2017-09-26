@@ -1,0 +1,4 @@
+db.sqlite3
+__pycache__
+SECRET_KEY.txt
+
