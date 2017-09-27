@@ -26,6 +26,7 @@ project_root = os.path.dirname(cwd)
 
 sys.path.insert(0, project_root)
 import django
+django.conf.settings.configure()
 django.setup()
 
 # -- General configuration ------------------------------------------------
