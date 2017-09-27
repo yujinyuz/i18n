@@ -19,10 +19,10 @@
 #
 import os
 import sys
-import django
+
 sys.path.insert(0, os.path.abspath('..'))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'taskbuster.settings.production'
-django.setup()
+from django.conf import settings
+settings.configure()
 
 # -- General configuration ------------------------------------------------
 
