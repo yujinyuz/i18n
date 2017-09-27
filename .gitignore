@@ -108,3 +108,5 @@ db.sqlite3
 SECRET_KEY.txt
 geckodriver.log
 .coverage
+i18n.sublime-project
+i18n.sublime-workspace
