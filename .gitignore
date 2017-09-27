@@ -107,3 +107,4 @@ venv.bak/
 db.sqlite3
 SECRET_KEY.txt
 geckodriver.log
+.coverage
