@@ -41,13 +41,13 @@ First, you must know your Python 3 path::
 
 which is something similar to /usr/local/bin/python3
 
-Next, create a Development virtual environment with Python 3 installed:
+Next, create a Development virtual environment with Python 3 installed::
 
     $ mkvirtualenv --python=`which python3` tb_dev
 
 where you might need to change it with your python path.
 
-Go to the virtual environment folder with:
+Go to the virtual environment folder with::
 
     $ cd $VIRTUAL_ENV/bin
 
