@@ -35,7 +35,7 @@ the name in a few places:
 Virtual environments and Settings Files
 ---------------------------------------
 
-First, you must know your Python 3 path:
+First, you must know your Python 3 path::
 
     $ which python3
 
@@ -50,7 +50,8 @@ where you might need to change it with your python path.
 Go to the virtual environment folder with:
 
     $ cd $VIRTUAL_ENV/bin
-and edit the postactivate file.:
+
+and edit the postactivate file. ::
 
     $ vi postactivate
 
@@ -88,6 +89,7 @@ The default language for this Project is **English**, and we use internationaliz
 If you want to change the translation language, or include a new one, you just need to modify the **LANGUAGES** variable in the file *settings/base.py*. The language codes that define each language can be found |codes_link|.
 
 .. |codes_link| raw:: html
+
     <a href="http://msdn.microsoft.com/en-us/library/ms533052(v=vs.85).aspx" target="_blank">here</a>
 
 For example, if you want to use German you should include::
@@ -111,6 +113,7 @@ Note: the name inside the translation function _("") is the language name in the
 More information on the |internationalization_post|.
 
 .. |internationalization_post| raw:: html
+
     <a href="http://marinamele.com/taskbuster-django-tutorial/internationalization-localization-languages-time-zones" target="_blank">TaskBuster post</a>
 
 Translation
