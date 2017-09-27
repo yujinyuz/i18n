@@ -12,13 +12,13 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY_PATH = os.path.join(os.path.dirname(BASE_DIR), 'SECRET_KEY.txt')
+SECRET_KEY_PATH = os.path.join(BASE_DIR, 'SECRET_KEY.txt')
 SECRET_KEY = ''
 with open(SECRET_KEY_PATH) as f:
     SECRET_KEY = f.read().strip()
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'taskbuster.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(os.path.dirname(BASE_DIR), 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,5 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(os.path.dirname(BASE_DIR), 'static'),
+    os.path.join(BASE_DIR, 'static'),
 )
